@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/MarMarcz/kolos-try/tree/main/my-simple-web-app'
+                git 'https://github.com/MarMarcz/kolos-try'
             }
         }
 
